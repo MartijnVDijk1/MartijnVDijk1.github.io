@@ -1,0 +1,121 @@
+﻿body {
+    overflow-x: hidden;
+    color: #e5e5e5;
+    text-shadow:
+            -1px -1px 0 #000,
+            0   -1px 0 #000,
+            1px -1px 0 #000,
+            1px  0   0 #000,
+            1px  1px 0 #000,
+            0    1px 0 #000,
+            -1px  1px 0 #000,
+            -1px  0   0 #000;
+    margin: 0;
+}
+
+.block {
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #e5e5e5;
+}
+
+div.right {
+    text-align: right;
+    padding: 50px 50px 100px 50px;
+}
+
+div.left {
+    padding: 50px 50px 100px 50px;
+}
+
+.right p{
+    padding-left: 100px;
+}
+
+.project a {
+    color: #e5e5e5;
+    margin-left: 40px;
+}
+
+.sidebar {
+    opacity: 80%;
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #d36d22;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: right;
+    margin-left: 20px;
+}
+
+input {
+    border: 2px solid #d36d22;
+    background-color: black;
+    padding: 10px 30px 10px 5px;
+    color: #e5e5e5;
+}
+
+.big-input {
+    width: 500px;
+    height: 100px;
+    border: 2px solid #d36d22;
+    background-color: black;
+    padding: 10px 30px 10px 5px;
+    color: #e5e5e5;
+}
+
+.send input {
+    background-color: grey;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+}
+
+.footer {
+    border-top: 2px solid #d36d22;
+    margin-right: -7px;
+    padding: 20px 50px;
+}
+
+.social i {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    color: #e5e5e5;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+img {
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border: 2px solid #d36d22;
+}
+
+@media only screen and (min-width: 1080px) {
+    div.right {
+        padding: 50px 50px 100px 500px;
+    }
+    
+    div.left {
+        padding: 50px 500px 100px 50px;
+    }
+}
