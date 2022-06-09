@@ -50,23 +50,19 @@
                 Heb je vragen voor mij? wil je mij wat laten weten? laat hier je contact gegevens achter met natuurlijk je vraag
                 erbij
             </p>
-            <form action="#" method="post" class="form">
+            <form action="mail.php" method="post" class="form">
                 <div>
                     <label for="Name">Naam:</label>
                 </div>
-                <input id="Name" name="Name" type="text"><br><br>
+                <input id="Name" name="Name" type="text" required><br><br>
                 <div>
                     <label for="Email">Email:</label>
                 </div>
-                <input id="Email" name="Email" type="email"><br><br>
+                <input id="Email" name="Email" type="email" required><br><br>
                 <div>
-                    <label for="Phone">Telefoon:</label>
+                    <label for="Message">Vraag:</label>
                 </div>
-                <input id="Phone" name="Phone" type="number"><br><br>
-                <div>
-                    <label for="Question">Vraag:</label>
-                </div>
-                <textarea class="big-input" id="Question" name="Question" type="text"></textarea><br><br>
+                <textarea class="big-input" id="Message" name="Message" type="text" required></textarea><br><br>
                 <div class="send">
                     <input type="submit" value="Send">
                 </div>
