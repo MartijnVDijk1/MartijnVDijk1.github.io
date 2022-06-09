@@ -43,7 +43,10 @@ div.left {
 }
 
 .sidebar {
-    opacity: 80%;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     height: 100%;
     overflow-x: hidden;
     padding-top: 20px;
@@ -77,6 +80,7 @@ input {
     text-decoration: none;
     color: #e5e5e5;
     text-shadow: 0 0 0 #000;
+    margin-bottom: 5px;
 }
 
 .big-input {
@@ -85,6 +89,7 @@ input {
     border: 2px solid #d36d22;
     padding: 10px 30px 10px 5px;
     color: #e5e5e5;
+    background-color: black;
 }
 
 .send input {
